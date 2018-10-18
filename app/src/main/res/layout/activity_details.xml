@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".details_Activity.MessDetailsActivity">
+    <ImageView
+        android:id="@+id/imageViewMess"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_launcher_background"/>
+ <LinearLayout
+     android:layout_margin="10dp"
+     android:layout_width="match_parent"
+     android:orientation="horizontal"
+     android:background="@android:color/holo_blue_dark"
+     android:layout_height="120dp">
+     <LinearLayout
+         android:layout_weight="1"
+         android:layout_gravity="center"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="vertical">
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Month"
+             android:layout_marginLeft="10dp"
+             android:textColor="@color/white"
+             android:textStyle="bold"
+             android:textSize="20sp"/>
+         <TextView
+             android:id="@+id/monthId"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Month"
+             android:textColor="@color/white"
+             android:layout_marginLeft="10dp"
+             android:textSize="20sp"/>
+
+     </LinearLayout>
+     <LinearLayout
+         android:layout_weight=".5"
+         android:layout_gravity="center"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="vertical">
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Rent"
+             android:layout_marginLeft="10dp"
+             android:textColor="@color/white"
+             android:textStyle="bold"
+             android:textSize="20sp"/>
+         <TextView
+             android:id="@+id/rentTV"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="rent"
+             android:textColor="@color/white"
+             android:layout_marginLeft="10dp"
+             android:textSize="20sp"/>
+
+     </LinearLayout>
+
+      </LinearLayout>
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/phoneIcon"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_phone_black_24dp"/>
+        <TextView
+            android:id="@+id/phoneTv"
+            android:text="@string/phone_number"
+            android:layout_marginLeft="20dp"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_place_black_24dp"/>
+        <TextView
+            android:id="@+id/locationTv"
+            android:text="@string/enter_location"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_note_black_24dp"/>
+        <TextView
+            android:id="@+id/descriptionTv"
+            android:text="@string/description"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
